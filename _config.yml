@@ -78,5 +78,8 @@ theme: hueman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:github
-  repo:https://github.com/larkersos/hexo-hueman.git
+  type: github
+  #repo:https://github.com/larkersos/hexo-hueman.git
+  # 部署到github
+  repo: github:git@github.com:larkersos/hexo-hueman.git,master
+  branch: master # github分支
