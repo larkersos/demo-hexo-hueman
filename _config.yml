@@ -4,11 +4,11 @@
 
 # Site
 title: 我的博客
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+subtitle: 这是一个个人博客
+description: 技术，生活
+author: larkersos
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,7 +73,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: huamen
+theme: hueman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
