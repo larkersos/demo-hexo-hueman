@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://larkersos.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,14 +69,36 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# hexo-generator-json-content
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
-theme: hueman
+#theme: landscape,concise ,hueman,next ,casper ，yilia，huno，crisp, yelee,tranquilpeak
+theme: huno
+post_assert_folder: true
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   #repo:https://github.com/larkersos/hexo-hueman.git
@@ -84,3 +106,4 @@ deploy:
   # repo: github:git@github.com:larkersos/hexo-hueman.git,master
   repository: https://github.com/larkersos/larkersos.github.io.git
   branch: master # github分支
+

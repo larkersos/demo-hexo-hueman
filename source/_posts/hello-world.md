@@ -1,5 +1,11 @@
 title: 这是一个Hexo Hello 页面
-date: 2017-09-25 11:46:54
+tags:
+  - hello
+categories:
+  - 博客
+  - 练习
+author: larkersos
+date: 2017-09-25 11:46:00
 ---
 欢迎 [Hexo](https://hexo.io/)! 这是第一篇博客文章. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
