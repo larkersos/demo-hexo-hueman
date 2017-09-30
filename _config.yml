@@ -95,6 +95,8 @@ jsonContent:
 ## Themes: https://hexo.io/themes/
 #theme: landscape,concise ,hueman,next ,casper ，yilia，huno，crisp, yelee,tranquilpeak
 theme: huno
+
+# post_assert_folder
 post_assert_folder: true
 
 # Deployment
